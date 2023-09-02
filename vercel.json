@@ -1,6 +1,6 @@
 {
   "name": "my-nodejs-backend",
   "rewrites": [
-    { "source": "api/v1/(.*)", "destination": "/backend/server.js" }
+    { "source": "api/v1/(.*)", "destination": "./server.js" }
   ]
 }
