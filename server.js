@@ -52,7 +52,10 @@ app.post('/api/v1/verifyToken', (req, res) => {
   }
 });
 
-
+app.get('/api/v1/product', (req, res) => {
+  // Handle the /api/v1/product route logic here
+  res.send('This is the /api/v1/product route.');
+});
 // //========================================Invoice
 app.get('/api/v1/orders/:orderId/download', async (req, res) => {
   try {
